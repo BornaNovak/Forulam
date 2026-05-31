@@ -65,3 +65,32 @@
   font-size: 12px;
   color: #adb5bd;
 }
+
+
+.footer-links-container {
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.footer-link-item {
+  transition: color 0.15s ease-in-out;
+}
+
+/* Kada korisnik prođe mišem preko linkova u footeru */
+a.footer-link-item:hover {
+  color: #0d6efd !important;
+  text-decoration: underline !important;
+}
+
+/* Razmak oko točkica separatora */
+.footer-separator {
+  padding: 0 8px;
+  color: #adb5bd;
+  user-select: none; /* Sprječava da korisnik slučajno označi točkice dok kopira tekst */
+}
+
+/* Indikator da se logotip može kliknuti */
+.logo-interactive {
+  user-select: none;
+  cursor: pointer;
+}
