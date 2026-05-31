@@ -2,7 +2,7 @@ import { useState } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
 import { Navbar, Container, Form, InputGroup, Nav } from 'react-bootstrap'
-import MainOverview from './pages/main/MainOverview'
+import MainResponsive from './pages/main/MainOverview'
 
 function App() {
   const defaultColor = '#212529' 
@@ -66,7 +66,7 @@ function App() {
       </Navbar>
 
       <div className="flex-grow-1 mb-5">
-        <MainOverview />
+        <MainResponsive />
       </div>
 
       <footer className="bg-white py-4 mt-auto main-footer">
